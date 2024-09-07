@@ -1,9 +1,10 @@
 ---
 title: "W_UP_01"
 author: "Renelyn Wilson"
-date: "Fall 2024"
+date: "Fall 2024 "
 output: html_document
 ---
+
 
 
 
@@ -40,10 +41,20 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ### Graphical Descriptive Results
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+boxplot(pushups~position,data=mydata)
+```
+
+Visually it seeems like the "skill" players have more endurance and so they produce more pushups than the "line" players. 
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(pushups~position,data=mydata)
+```
+I can tell that the mean for the "skill" players have around 50 pushups. The "line" players average is about 17. There is a 33 difference in pushups. The "skill" players have done around 3 times more than the "line" players. 
+
 
 ## Inferential Results
 
