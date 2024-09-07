@@ -67,4 +67,4 @@ The probability we got is .000009421. Which concludes that the "skill" players a
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-I first plotted 
+I first plotted a graphical descriptive results that physically showed the difference between the "skill" and "line" players. Then I made the numerical results that shows the facts that the "skill" players do three times more pushups than the "line" players. Then the inferential results showed the chance they have. 
